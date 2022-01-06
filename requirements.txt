@@ -12,5 +12,5 @@ Werkzeug
 numpy
 scipy
 matplotlib
-
+openpyxl
 
