@@ -8,9 +8,9 @@ __diseases = None
 __data_columns = None
 __model = None
 
-df1 = pd.read_csv("D:/actimi/deployment/PredictDiseases/server/Symptom-severity.csv")
-desc = pd.read_excel("D:/actimi/deployment/PredictDiseases/server/symptom_Description.xlsx")
-prec = pd.read_excel("D:/actimi/deployment/PredictDiseases/server/symptom_precaution.xlsx")
+df1 = pd.read_csv("Symptom-severity.csv")
+desc = pd.read_excel("symptom_Description.xlsx")
+prec = pd.read_excel("symptom_precaution.xlsx")
 def predict_disease(S1,S2,S3,S4,S5=0,S6=0):
 
 
